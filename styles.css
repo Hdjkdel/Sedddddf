@@ -1,0 +1,106 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e10;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.transactions-header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.transaction-box {
+    margin: 20px auto;
+    border: 1px solid #2d2d2d;
+    border-radius: 8px;
+    width: 80%;
+    background-color: #121212;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.transaction-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.transaction-details {
+    text-align: left;
+}
+
+.amount {
+    color: #00ffcc;
+    font-size: 1.2rem;
+}
+
+.usd-value {
+    color: #00ffcc;
+    font-size: 0.9rem;
+}
+
+.transaction-time {
+    font-size: 0.9rem;
+}
+
+.pending-box {
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/* Year Metni */
+.year-text {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Alt Butonlar */
+.bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #2d2d2d;
+}
+
+.bottom-button {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.bottom-button img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.bottom-button:hover {
+    color: yellow;
+    cursor: pointer;
+}
